@@ -19,7 +19,7 @@ class Kcptun < Formula
 
   def plist; <<~EOS
     <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.ap
+    <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
     <plist version="1.0">
     <dict>
       <key>KeepAlive</key>
@@ -28,7 +28,7 @@ class Kcptun < Formula
       <string>#{plist_name}</string>
       <key>ProgramArguments</key>
       <array>
-        <string>#{opt_bin}/kcptun-client</string>
+        <string>#{bin}/kcptunc</string>
         <string>-c</string>
         <string>#{etc}/kcptun/config.json</string>
       </array>
