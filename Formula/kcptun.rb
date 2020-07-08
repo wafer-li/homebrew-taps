@@ -1,7 +1,7 @@
 class Kcptun < Formula
   desc "A Stable & Secure Tunnel Based On KCP with N:M Multiplexing"
   homepage "https://github.com/xtaci/kcptun"
-  version "v20200103"
+  version "v20200701"
   url "https://github.com/xtaci/kcptun/archive/#{version}.tar.gz"
   sha256 "620d4cd3ed1660e71b0fe1041c063e8fb38dc3aa7a6c78f6570e812566f44bb5"
 
